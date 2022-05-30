@@ -8,6 +8,8 @@ module.exports = {
         "bookmark-blue": "#242A45",
         "bookmark-grey": "#9194A2",
         "bookmark-white": "#f7f7f7",
+        "bookmark-yellow": "#facc15",
+        "bookmark-green": "#059669",
       }
     },
     fontFamily: {

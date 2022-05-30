@@ -16,3 +16,7 @@
 .btn-white {
     @apply bg-bookmark-white;
 }
+
+.btn-yellow {
+    @apply bg-bookmark-yellow;
+}
