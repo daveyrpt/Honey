@@ -1,0 +1,240 @@
+<!-- Description of HTML -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmark Landing Page</title>
+
+    <!-- CSS -->
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body class="font-Poppins overflow-x-hidden">
+    <!-- Header Section -->
+    <header>
+      <nav class="container flex items-center py-4 mt-4 sm:mt-4">
+        <div class="py-1"><img src="/dist/imgs/logo.png" class="w-1/3"></div>
+        <ul class="hidden sm:flex flex-1 justify-end items-center gap-12 text-bookmark-blue uppercase text-xs">
+          <li class="cursor-pointer">Features</li>
+          <li class="cursor-pointer">Donate</li>
+          <li class="cursor-pointer">Contact</li>
+          <button type="button" class="bg-bookmark-red text-white rounded-md px-7 py-3 uppercase">Log in</button>
+        </ul>
+
+        <div class="flex sm:hidden flex-1 justify-end ">
+          <i class="text-xl fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative">
+      <div class="container flex flex-col-reverse lg:flex-row items-center gap-12 mt-14 lg:mt-28">
+        <!-- Content -->
+        <div class="flex flex-1 flex-col items-center lg:items-start">
+          <h2 class="text-bookmark-blue text-3xl md:text-4xl lg:text-5xl text-center lg:text-left mb-6">Smart Password Manager</h2>
+          <p class="text-bookmar-grey text-lg text-center lg:text-left mb-6">Free open source password manager that will save your time storing all your password in a single decentralize location.</p>
+          <div class="flext justify-center flex-wrap gap-6 ">
+            <button type="button" class="btn btn-purple hover:bg-bookmark-red hover:text-black">Download</button>
+            <button type="button" class="btn btn-white hover:bg-bookmark-red hover:text-white mx-3">GitHub Repository</button>
+          </div>
+        </div>
+
+        <!-- Image -->
+        <div class="flex justify-center flex-1 mb-10 md:mb-16 lg:mb-0 z-10">
+          <img src="/dist/imgs/hero-bg.png" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+        </div>
+      </div>
+
+      <!-- Rounded Rectangle-->
+      <div class="hidden md:block overflow-hidden bg-bookmark-red rounded-l-full absolute h-80 w-1/2 top-32 right-0 lg:-bottom-28 lg:-right-36"></div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="bg-bookmark-white py-20 mt-20 lg:mt-60">
+      <!-- Heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue">Features</h1>
+        <p class="text-center text-bookmark-grey mt-4">This password manager is designed to enable user in any age gap to comfortably use it in addition to its built-in pillars mainly consist of security, multi-platform, and ultimately free to use.</p>
+      </div>
+      <!-- Feature 1 -->
+      <div class="relative mt-20 lg:mt-24">
+        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <!-- Image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img src="/dist/imgs/security.png" alt="" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+          </div>
+
+          <!-- Content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Security</h1>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">With multiple layer of protection against malware and bot, your password will never be in risk anymore.</p>
+
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          </div>
+          <!-- Rounded Rectangle -->
+          <div class="hidden lg:block overflow-hidden bg-bookmark-green rounded-r-full absolute h-80 w-1/2 -bottom-4 -left-36"></div>
+        </div>
+      </div>
+
+      <!-- Feature 2 -->
+      <div class="relative mt-20 lg:mt-52">
+        <div class="container flex flex-col lg:flex-row-reverse items-center justify-center gap-x-24">
+          <!-- Image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img src="/dist/imgs/platform.png" alt="" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+          </div>
+
+          <!-- Content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Multi-platform</h1>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">The password manager software has been tested on more than thousand devices. More device will be supported soon. Check our latest supported devices.</p>
+
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black">More Info</button>
+          </div>
+          <!-- Rounded Rectangle -->
+          <div class="hidden lg:block overflow-hidden bg-bookmark-yellow rounded-l-full absolute h-80 w-1/2 -bottom-4 -right-36"></div>
+        </div>
+      </div>
+
+      <!-- Feature 3 -->
+      <div class="relative mt-20 lg:mt-52">
+        <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+          <!-- Image -->
+          <div class="flex flex-1 justify-center z-10 mb-10 lg:mb-0">
+            <img src="/dist/imgs/money.png" alt="" class="w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full">
+          </div>
+
+          <!-- Content -->
+          <div class="flex flex-1 flex-col items-center lg:items-start">
+            <h1 class="text-3xl text-bookmark-blue">Zero Payment</h1>
+            <p class="text-bookmark-grey my-4 text-center lg:text-left sm:w-3/4 lg:w-full">We understand not everyone can afford to purchase other similar software. But since hosting is not free and currently all the payment is paid by us, we sincerely hope for a donation to be made for us to maintain this software.</p>
+
+            <button type="button" class="btn bg-green-500 text-white hover:bg-bookmark-white hover:text-black">Donate</button>
+          </div>
+          <!-- Rounded Rectangle -->
+          <div class="hidden lg:block overflow-hidden bg-bookmark-purple rounded-r-full absolute h-80 w-1/2 -bottom-4 -left-36"></div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Download -->
+    <section class="py-20 mt-20">
+      <!-- Heading -->
+      <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+        <h1 class="text-3xl text-center text-bookmark-blue">Download the Extension</h1>
+        <p class="text-center text-bookmark-grey mt-4">Please select the correct extension to download. Incorrect installed extension may cause bug and error.</p>
+      </div>
+
+      <!-- Cards -->
+      <div class="container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 max-w-screen-lg mt-16">
+        <!-- Card 1 -->
+        <div class="flex flex-col rounded-md shadow-md lg:mb-16">
+          <div class="p-6 flex flex-col items-center">
+            <img src="/dist/imgs/logo-chrome.svg" alt="">
+            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Chrome</h3>
+            <p class="mb-2 text-bookmark-grey font-light">Version 7 and above</p>
+          </div>
+          <hr class="border-b border-bookmark-white">
+          <div class="flex p-6">
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black flex-1">Install</button>
+          </div>
+        </div>
+                
+        <!-- Card 2 -->
+        <div class="flex flex-col rounded-md shadow-md lg:my-8">
+          <div class="p-6 flex flex-col items-center">
+            <img src="/dist/imgs/logo-firefox.svg" alt="">
+            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Firefox</h3>
+            <p class="mb-2 text-bookmark-grey font-light">Version 3 and above</p>
+          </div>
+          <hr class="border-b border-bookmark-white">
+          <div class="flex p-6">
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black flex-1">Install</button>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="flex flex-col rounded-md shadow-md lg:mt-16">
+          <div class="p-6 flex flex-col items-center">
+            <img src="/dist/imgs/logo-opera.svg" alt="">
+            <h3 class="mt-5 mb-2 text-bookmark-blue text-lg">Add to Opera</h3>
+            <p class="mb-2 text-bookmark-grey font-light">Version 6 and above</p>
+          </div>
+          <hr class="border-b border-bookmark-white">
+          <div class="flex p-6">
+            <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black flex-1">Install</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="bg-bookmark-white py-20">
+      <div class="container">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+          <h1 class="text-3xl text-center text-bookmark-blue">Frequently Asked Questions</h1>
+          <p class="text-center text-bookmark-grey mt-4">This is the most asked question we receive for the past months. Alternatively you may contact us via an email.</p>
+        </div>
+
+        <!-- FAQ items -->
+        <div class="flex flex-col sm:w-3/4 lg:w-5/12 mt-12 mx-auto">
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">What set apart our product with the similar product out there?</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">Unable to access the password manager after recent update.</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">When will my device be supported?</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+          <div class="flex items-center border-b py-4">
+            <span class="flex-1">Other ways to donate</span>
+            <i class="text-bookmark-purple fas fa-chevron-down"></i>
+          </div>
+
+          <button type="button" class="btn btn-purple hover:bg-bookmark-white hover:text-black flex-1 self-center m-6">More Info</button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Contact -->
+    <section class="bg-bookmark-purple text-white py-20">
+      <div class="container">
+        <div class="sm:w-3/4 lg:w-1/2 mx-auto">
+          <p class="font-light uppercase text-center mb-8">10mil user already added use our password manager!</p>
+          <h1 class="text-3xl text-center">Stay up-to-date</h1>
+          <div class="flex flex-col sm:flex-row gap-6 mt-8">
+            <input type="text" placeholder="Enter email address" class="focus:outline-none flex-1 px-2 py-3 rounded-md text-black"\>
+            <button type="button" class="btn bg-bookmark-red hover:bg-bookmark-white hover:text-black">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-bookmark-blue py-8">
+      <div class="container flex flex-col md:flex-row items-center">
+        <div class="flex flex-1 flex-wrap items-center justify-center md:justify-start gap-12">
+
+          <ul class="flex text-white uppercase gap-12 text-xs">
+            <li class="cursor-pointer">Features</li>
+            <li class="cursor-pointer">Donate</li>
+            <li class="cursor-pointer">Contact</li>
+          </ul>
+        </div>
+        <div class="flex gap-10 mt-12 md:mt-0">
+          <li><i class="text-white text-2xl fab fa-twitter"></i></li>
+          <li><i class="text-white text-2xl fab fa-facebook-square"></i></li>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
